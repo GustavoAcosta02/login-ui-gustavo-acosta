@@ -27,15 +27,15 @@ html, body {
 .container{
     display: flex;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100;
     align-items: center;
     justify-content: center;
-    /* background-color: blueviolet; */
+    
 
 }
 .login-box{
-    width: 350px;
-    height: 375px;
+    min-width: 350px;
+    min-height: 375px;
     padding: 40px;
     text-align: center;
     background: rgba(255,255,255,0.2);
